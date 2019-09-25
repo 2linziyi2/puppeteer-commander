@@ -1,0 +1,19 @@
+{
+  "name": "puppeteer-commander",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "pup": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^3.0.1",
+    "puppeteer": "^1.20.0",
+    "puppeteer-har": "^1.1.0"
+  }
+}
