@@ -1,11 +1,11 @@
-# puppeteer-commander
+# puppeteer-har-commander
 通过puppeteer和puppeteer-har两个库生成网站的har文件，分析网站加载情况。
 
 PS: har文件可以通过[harviewer](http://www.softwareishard.com/har/viewer/)显示出可视化的加载信息
 
 ## 安装
 ```
-npm install -g puppeteer-commander
+npm install -g puppeteer-har-commander
 ```
 
 ## 执行

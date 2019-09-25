@@ -1,15 +1,15 @@
 {
-  "name": "puppeteer-commander",
+  "name": "puppeteer-har-commander",
   "version": "1.0.0",
-  "description": "",
+  "description": "puppeteer har commander",
   "main": "index.js",
   "bin": {
-    "pup": "./index.js"
+    "puppeteer-har-commander": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "linziyi",
   "license": "ISC",
   "dependencies": {
     "commander": "^3.0.1",
