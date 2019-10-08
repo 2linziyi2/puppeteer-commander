@@ -10,9 +10,14 @@ npm install -g puppeteer-har-commander
 
 ## 执行
 ```
-pup --[url|out]
+Usage: puppeteer-har-commander [options]
 
---url 请求的URL，默认为: https://www.baidu.com/
---out 输出的文件路径。例如：./results.har
+Options:
+  -V, --version              output the version number
+  -u, --url [url]            请求的URL (default: "https://www.baidu.com/")
+  -o, --out [out]            输出的文件路径 (default: "./")
+  -m, --isMobile [isMobile]  是否手机模式打开, 1/0 (default: "1")
+  -d, --delay [delay]        等待关闭时间，毫秒 (default: "10000")
+  -h, --help                 output usage information
 ```
 
